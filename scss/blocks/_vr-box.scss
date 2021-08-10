@@ -1,0 +1,9 @@
+.vr-box {
+  margin-bottom: 20px;
+
+  @include box($bdrs: 12px, $bg-color: pink);
+
+  &--circle {
+    @include box($bdrs: 50%, $bg-color: black)
+  }
+}
