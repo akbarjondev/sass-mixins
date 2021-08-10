@@ -3,6 +3,11 @@
     background-color: orange;
 
     @include reset-list;
+    @include settings-font(1.5, 700, 18px);
   }
-
+  
+  &__list--ordered {
+    @include settings-font($fz: 30px, $lh: 4, $fw: 500);
+    @include reset-list;
+  }
 }
